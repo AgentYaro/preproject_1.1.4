@@ -16,6 +16,5 @@ public class Main {
         System.out.println(userService.getAllUsers());
         userService.dropUsersTable();
         userService.end();
-        System.out.println("That's all, folks");
     }
 }
